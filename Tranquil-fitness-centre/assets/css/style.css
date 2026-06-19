@@ -103,3 +103,11 @@ body.dark-mode .bg-cream { background-color: #222 !important; }
     .hero h1 { font-size: 2rem; }
     .hero p { font-size: 1rem; }
 }
+
+.page-header {
+    background: linear-gradient(rgba(61, 43, 31, 0.75), rgba(61, 43, 31, 0.75)),
+                url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600') center/cover no-repeat;
+    color: var(--cream);
+    padding: 100px 0;
+    text-align: center;
+}
