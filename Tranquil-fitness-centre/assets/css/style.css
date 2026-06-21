@@ -10,18 +10,15 @@
     --text-light: #f5f0e8;
 }
 
-/* BASE */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--text-dark); background-color: #fff; }
 a { text-decoration: none; color: inherit; }
 
-/* NAVBAR */
 .navbar { background-color: var(--brown-dark) !important; padding: 1rem 0; }
 .navbar-brand { font-size: 1.5rem; color: var(--cream) !important; }
 .nav-link { color: var(--cream) !important; font-weight: 500; margin: 0 0.3rem; transition: color 0.3s; }
 .nav-link:hover, .nav-link.active { color: var(--terracotta) !important; }
 
-/* HERO */
 .hero {
     min-height: 100vh;
     background: linear-gradient(rgba(61, 43, 31, 0.7), rgba(61, 43, 31, 0.7)),
@@ -29,7 +26,6 @@ a { text-decoration: none; color: inherit; }
     padding-top: 80px;
 }
 
-/* SECTION TITLES */
 .section-title { color: var(--brown-dark); font-weight: 700; position: relative; }
 .section-title::after {
     content: '';
@@ -40,10 +36,8 @@ a { text-decoration: none; color: inherit; }
     margin: 10px auto 0;
 }
 
-/* BACKGROUNDS */
 .bg-cream { background-color: var(--cream) !important; }
 
-/* FEATURE CARDS */
 .feature-card {
     background: #fff;
     border-radius: 12px;
@@ -53,7 +47,6 @@ a { text-decoration: none; color: inherit; }
 .feature-card:hover { transform: translateY(-5px); }
 .feature-icon { font-size: 3rem; }
 
-/* CLASS CARDS */
 .class-card {
     border: none;
     border-radius: 12px;
@@ -62,7 +55,6 @@ a { text-decoration: none; color: inherit; }
 }
 .class-card:hover { transform: translateY(-5px); }
 
-/* BUTTONS */
 .btn-earthy {
     background-color: var(--terracotta);
     color: white;
@@ -73,7 +65,6 @@ a { text-decoration: none; color: inherit; }
 }
 .btn-earthy:hover { background-color: var(--brown-mid); color: white; }
 
-/* TESTIMONIALS */
 .testimonial-card {
     background: #fff;
     border-left: 4px solid var(--terracotta);
@@ -82,7 +73,6 @@ a { text-decoration: none; color: inherit; }
     font-style: italic;
 }
 
-/* FOOTER */
 .footer {
     background-color: var(--brown-dark);
     color: var(--cream);
@@ -91,14 +81,6 @@ a { text-decoration: none; color: inherit; }
 .footer a:hover { color: var(--terracotta); }
 .footer hr { border-color: var(--brown-mid); }
 
-/* DARK MODE */
-body.dark-mode { background-color: #1a1a1a; color: #f0f0f0; }
-body.dark-mode .feature-card,
-body.dark-mode .class-card,
-body.dark-mode .testimonial-card { background-color: #2a2a2a; color: #f0f0f0; }
-body.dark-mode .bg-cream { background-color: #222 !important; }
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
     .hero h1 { font-size: 2rem; }
     .hero p { font-size: 1rem; }
@@ -106,8 +88,13 @@ body.dark-mode .bg-cream { background-color: #222 !important; }
 
 .page-header {
     background: linear-gradient(rgba(61, 43, 31, 0.75), rgba(61, 43, 31, 0.75)),
-                url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600') center/cover no-repeat;
+                url('assets/images/download.jpg') center/cover no-repeat;
     color: var(--cream);
     padding: 100px 0;
     text-align: center;
+}
+
+.contact-info-item h5 {
+    color: var(--brown-dark);
+    font-weight: 600;
 }
