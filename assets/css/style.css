@@ -98,3 +98,21 @@ a { text-decoration: none; color: inherit; }
     color: var(--brown-dark);
     font-weight: 600;
 }
+.facility-card {
+    border: none;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.facility-card:hover { transform: translateY(-5px); }
+.facility-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.facility-card .card-title {
+    color: var(--brown-dark);
+    font-weight: 600;
+}
