@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🌿Tranquil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainers.html">Trainers</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="membership.html">Membership</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Our Facilities</h1>
+            <p class="lead">Everything you need for a complete wellness experience all under one roof.</p>
+        </div>
+    </header>
+
+    <section class="py-4 bg-cream">
+        <div class="container">
+            <div class="class-filter justify-content-centre"">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="yoga">Yoga</button>
+                <button class="filter-btn" data-filter="hiit">HIIT</button>
+                <button class="filter-btn" data-filter="strength ">Strength and Conditioning</button>
+                <button class="filter-btn" data-filter="pilates">Pilates</button>
+                <button class="filter-btn" data-filter="running">Running</button>
+                <button class="filter-btn" data-filter="basketball">Basketball</button>
+                <button class="filter-btn" data-filter="swimming">Swimming</button>
+                <button class="filter-btn" data-filter="climbing">Climbing</button>
+                <button class="filter-btn" data-filter="spin">Spin</button>
+                <button class="filter-btn" data-filter="boxing">Boxing</button>
+                <button class="filter-btn" data-filter="Padel">Boxing</button>
+            </div>
+        </div>
+    </section>
+
+      <!-- CLASSES GRID -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4" id="classGrid">
+ 
+                <div class="col-md-4 class-item" data-category="yoga">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Yoga2.png" class="card-img-top" alt="Morning Yoga Flow">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Morning Yoga Flow</h5>
+                            <p class="card-text">Start your day with energising poses and breathing exercises.</p>
+                            <p class="text-muted"><small>Mon, Wed, Fri — 6:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="hiit">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/HIIT.png" class="card-img-top" alt="HIIT Power Session">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Intermediate</span>
+                            <h5 class="card-title">HIIT Power Session</h5>
+                            <p class="card-text">High intensity interval training to burn fat and build endurance.</p>
+                            <p class="text-muted"><small>Tue, Thu — 7:00 AM & 6:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="strength">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Strength.png" class="card-img-top" alt="Strength and Conditioning">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Advanced</span>
+                            <h5 class="card-title">Strength & Conditioning</h5>
+                            <p class="card-text">Build muscle and improve overall athletic performance.</p>
+                            <p class="text-muted"><small>Mon, Wed, Sat — 8:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="pilates">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Pilatessession.png" class="card-img-top" alt="Reformer Pilates">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Reformer Pilates</h5>
+                            <p class="card-text">Low-impact, full-body conditioning using reformer machines.</p>
+                            <p class="text-muted"><small>Tue, Thu — 9:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="yoga">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Yoga.png" class="card-img-top" alt="Restorative Yoga">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Restorative Yoga</h5>
+                            <p class="card-text">Slow-paced, deeply relaxing yoga to release tension and stress.</p>
+                            <p class="text-muted"><small>Sun — 5:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="hiit">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/TabataBlast.png" class="card-img-top" alt="Tabata Blast">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Advanced</span>
+                            <h5 class="card-title">Tabata Blast</h5>
+                            <p class="card-text">20-second max effort intervals for maximum calorie burn.</p>
+                            <p class="text-muted"><small>Wed, Fri — 6:30 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="strength">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Powerlifting.png" class="card-img-top" alt="Powerlifting Basics">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Intermediate</span>
+                            <h5 class="card-title">Powerlifting Basics</h5>
+                            <p class="card-text">Learn proper form for squat, bench, and deadlift movements.</p>
+                            <p class="text-muted"><small>Mon, Fri — 5:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="pilates">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Pilates.png" class="card-img-top" alt="Mat Pilates Core">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Mat Pilates Core</h5>
+                            <p class="card-text">Strengthen your core and improve flexibility with mat-based exercises.</p>
+                            <p class="text-muted"><small>Sat — 10:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="running">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Running.png" class="card-img-top" alt="Track Endurance Run">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Intermediate</span>
+                            <h5 class="card-title">Track Endurance Run</h5>
+                            <p class="card-text">Guided distance running session on our indoor track to build stamina.</p>
+                            <p class="text-muted"><small>Mon, Thu — 6:30 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="basketball">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Basketball3.png" class="card-img-top" alt="Basketball Skills Clinic">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Basketball Skills Clinic</h5>
+                            <p class="card-text">Drills and pickup games to sharpen your shooting, passing, and defense.</p>
+                            <p class="text-muted"><small>Wed, Sat — 4:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="swimming">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/WaterAerobics.png" class="card-img-top" alt="Aqua Aerobics">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Aqua Aerobics</h5>
+                            <p class="card-text">Low-impact, full-body workout in our heated pool, easy on the joints.</p>
+                            <p class="text-muted"><small>Tue, Fri — 9:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="climbing">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/ClimbingWall.png" class="card-img-top" alt="Indoor Climbing Intro">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Intermediate</span>
+                            <h5 class="card-title">Indoor Climbing Intro</h5>
+                            <p class="card-text">Build grip strength and problem-solving skills on our climbing wall.</p>
+                            <p class="text-muted"><small>Thu — 5:30 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="spin">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Spin.png" class="card-img-top" alt="Spin Studio Cycle">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Advanced</span>
+                            <h5 class="card-title">Spin Studio Cycle</h5>
+                            <p class="card-text">High-energy indoor cycling set to music, with resistance intervals.</p>
+                            <p class="text-muted"><small>Mon, Wed — 6:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="boxing">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/Boxing.png" class="card-img-top" alt="Boxing Fundamentals">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Intermediate</span>
+                            <h5 class="card-title">Boxing Fundamentals</h5>
+                            <p class="card-text">Learn proper stance, footwork, and combinations in our boxing ring.</p>
+                            <p class="text-muted"><small>Tue, Sat — 7:00 PM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-4 class-item" data-category="padel">
+                    <div class="class-card card h-100">
+                        <img src="assets/images/PadelTraining.png" class="card-img-top" alt="Padel Social League">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h5 class="card-title">Padel Social League</h5>
+                            <p class="card-text">Friendly competitive padel matches for members of all skill levels.</p>
+                            <p class="text-muted"><small>Sun — 11:00 AM</small></p>
+                        </div>
+                    </div>
+                </div>
+ 
+            </div>
+ 
+            <div id="noResults" class="text-center py-5 d-none">
+                <h4 class="text-muted">No classes found in this category.</h4>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="py-5 bg-cream text-center">
+        <div class="container">
+            <h2 class="section-title mb-3">Ready to Join a Class?</h2>
+            <p class="mb-4">Sign up for a membership today and book your first class.</p>
+            <a href="membership.html" class="btn btn-earthy btn-lg">View Membership Plans</a>
+        </div>
+    </section>
+ 
+    <!-- FOOTER -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>🌿 Tranquil Fitness</h5>
+                    <p>Your wellness journey starts here. Nairobi's premier fitness and wellness studio.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>📍 Westlands, Nairobi, Kenya</p>
+                    <p>📞 +254 700 123 456</p>
+                    <p>📧 hello@tranquilfitness.co.ke</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0">© 2026 Tranquil Fitness & Wellness Studio. All rights reserved.</p>
+        </div>
+    </footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+ 

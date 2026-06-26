@@ -191,3 +191,32 @@ a { text-decoration: none; color: inherit; }
     font-size: 0.85rem;
     margin-bottom: 0.5rem;
 }
+
+.class-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+.filter-btn {
+    background: #fff;
+    border: 2px solid var(--olive-light);
+    color: var(--brown-dark);
+    padding: 0.5rem 1.4rem;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.filter-btn:hover {
+    background: var(--olive-light);
+    color: white;
+}
+.filter-btn.active {
+    background: var(--terracotta);
+    border-color: var(--terracotta);
+    color: white;
+}
+.class-card img {
+    height: 220px;
+    object-fit: cover;
+}
