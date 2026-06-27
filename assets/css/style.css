@@ -220,3 +220,60 @@ a { text-decoration: none; color: inherit; }
     height: 220px;
     object-fit: cover;
 }
+.pricing-card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    position: relative;
+    transition: transform 0.3s;
+}
+.pricing-card:hover { transform: translateY(-5px); }
+.pricing-card.popular {
+    border: 3px solid var(--terracotta);
+    transform: scale(1.03);
+}
+.popular-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--terracotta);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.price-tag {
+    margin: 1rem 0;
+}
+.price-tag .currency {
+    font-size: 1rem;
+    color: var(--brown-mid);
+    vertical-align: top;
+}
+.price-tag .amount {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--brown-dark);
+}
+.price-tag .period {
+    font-size: 1rem;
+    color: var(--brown-mid);
+}
+.pricing-features li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #eee;
+}
+.btn-outline-earthy {
+    border: 2px solid var(--terracotta);
+    color: var(--terracotta);
+    background: transparent;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s;
+}
+.btn-outline-earthy:hover {
+    background: var(--terracotta);
+    color: white;
+}
