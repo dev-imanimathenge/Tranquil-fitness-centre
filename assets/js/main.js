@@ -75,3 +75,34 @@ if (facilityButtons.length > 0) {
         });
     });
 }
+
+const filterButtons = document.querySelectorAll('.filter-btn');
+const classItems = document.querySelectorAll('.class-item');
+const noResults = document.getElementById('noResults');
+
+if (filterButtons.length > 0) {
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const filter = button.getAttribute('data-filter');
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            let visibleCount = 0;
+            classItems.forEach(item => {
+                const category = item.getAttribute('data-category');
+                if (filter === 'all' || category === filter) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            if (visibleCount === 0) {
+                noResults.classList.remove('d-none');
+            } else {
+                noResults.classList.add('d-none');
+            }
+        });
+    });
+}
