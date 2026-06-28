@@ -95,7 +95,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .contact-info-item h5 {
-    color: var(--brown-dark);
+    color: var(--terracotta);
     font-weight: 600;
 }
 .facility-card {
@@ -113,7 +113,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .facility-card .card-title {
-    color: var(--brown-dark);
+    color: var(--terracotta);
     font-weight: 600;
 }
 
@@ -166,7 +166,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .flip-card-front h5 {
-    color: var(--brown-dark);
+    color: var(--terracotta);
     font-weight: 600;
     margin-bottom: 0.2rem;
 }
@@ -255,7 +255,7 @@ a { text-decoration: none; color: inherit; }
 .price-tag .amount {
     font-size: 2.8rem;
     font-weight: 700;
-    color: var(--brown-dark);
+    color: var(--terracotta);
 }
 .price-tag .period {
     font-size: 1rem;
