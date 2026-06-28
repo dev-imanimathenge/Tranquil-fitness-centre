@@ -315,3 +315,13 @@ body.dark-mode .facility-btn {
     background-color: #2a2a2a;
     color: #f0f0f0;
 }
+.carousel-img {
+    height: 450px;
+    object-fit: cover;
+}
+.carousel-caption h5 {
+    background: rgba(61, 43, 31, 0.7);
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
